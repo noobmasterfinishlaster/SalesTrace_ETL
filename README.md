@@ -19,4 +19,4 @@ You have an IDENTITY column but want to insert your **own values** from the sour
    ```sql
    SET IDENTITY_INSERT [MDM_STAGE].[NAD_EU_XREF_NEW] ON;```
    
-also FastLoadKeepIdentity should also be turned into false 
+   also FastLoadKeepIdentity should also be turned into false 
