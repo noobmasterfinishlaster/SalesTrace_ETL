@@ -1,4 +1,19 @@
 # SalesTrace_ETL
+
+## 🧩 Project Overview
+
+- **Tool:** SQL Server Integration Services (SSIS)
+- **Package Name:** `Package.dtsx`
+- **ETL Type:** Flat file to SQL Server
+- **Data Flow Includes:**
+  - Source: Flat File
+  - Transformations: Data Conversion
+  - Destination: SQL Server Table
+
+---
+
+![SSIS Package Screenshot](https://github.com/noobmasterfinishlaster/SalesTrace_ETL/blob/main/GITHUB.png?raw=true)
+---
 ## 🛠 Handling Auto-Increment (IDENTITY) Columns in SSIS
 
 When loading data into a table with an IDENTITY column (e.g., `NAD_EU_XREF_ID` column of NAD_EU_XREF table), SSIS can't insert values into that column unless special handling is done.
