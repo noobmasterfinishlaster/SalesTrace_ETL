@@ -17,5 +17,6 @@ You have an IDENTITY column but want to insert your **own values** from the sour
    Click on the advance editor of the OLE DB , Select Component Properties , Select FastLoadKeepIdentity and Turn it True .
 3. **Turn off Identity Insert using execute sql task**:
    ```sql
-   SET IDENTITY_INSERT [MDM_STAGE].[NAD_EU_XREF_NEW] ON;
-   also FastLoadKeepIdentity should also be turned into false 
+   SET IDENTITY_INSERT [MDM_STAGE].[NAD_EU_XREF_NEW] ON;```
+   
+also FastLoadKeepIdentity should also be turned into false 
